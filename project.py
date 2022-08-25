@@ -1,6 +1,6 @@
 import mysql.connector
 import datetime
-mydb=mysql.connector.connect(host="localhost",user="root",passwd="anjansai03")
+mydb=mysql.connector.connect(host="localhost",user="root",passwd="123")
 mycursor=mydb.cursor()
 mycursor.execute("create database if not exists parking_system")
 mycursor.execute("use parking_system")
